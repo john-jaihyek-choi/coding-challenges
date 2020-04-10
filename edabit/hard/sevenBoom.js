@@ -16,9 +16,6 @@ function sevenBoom(array) {
                 if(Number(number[j]) === 7) return 'Boom!';
             }
         }
-        // for (let j = 0; j < array[i].toString().length; j++) {
-        //     if(array[i])
-        // }
     }
     return 'there is no 7 in the array'
 }
