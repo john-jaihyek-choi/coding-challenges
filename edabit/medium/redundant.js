@@ -1,6 +1,9 @@
-function redundant (string) {
-    return console.log(string);
+function redundant (str) {
+    const testFunction = string => {
+        string = str;
+        return string;
+    }
+    return testFunction
 }
 
-redundant('test');
-redundant('test2');
+// closure problem. 
