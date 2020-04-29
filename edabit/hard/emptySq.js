@@ -7,7 +7,10 @@
     // n = nth sequence;
 
 // declare a function called emptySq with a single parameter, sequence;
+// instantiate a varaible called accumulator with an intial number value of 0;
 // create a loop to iterate through the nth many times of the sequence parameter;
+// use arithmetic progression formula of 2n^2 - a + 4n to get a value of accumulator
+// after loop is over, return the accumulator variable;
 
 
 function emptySq(sequence) {
