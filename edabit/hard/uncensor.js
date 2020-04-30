@@ -12,11 +12,11 @@
 
 function uncensor (censoredStrings, vowels) {
     let uncensored = "";
-    let vowelString = vowels.split();
+    let vowelString = vowels.split('');
 
     for (let i = 0; i < censoredStrings.length; i++) {
         if(censoredStrings[i] === "*") {
-            uncensored.push(vowelString.shift())
+            uncensored += vowelString.shift();
         } else {
             uncensored += censoredStrings[i];
         }
