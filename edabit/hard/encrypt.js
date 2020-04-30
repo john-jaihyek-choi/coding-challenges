@@ -39,3 +39,19 @@ function encrypt (strings) {
     }
     return reversedStrings += 'aca';
 }
+
+// revised version 
+
+function encrypt (strings) {
+    let reversedStrings = '';
+    const vowels = 'aeou';
+
+    for(let i = strings.length - 1; i >= 0; i--) {
+        if(/[aeou]/.test(strings[i])) {
+            reversedStrings += vowels.indexOf(strings[i]);
+        } else {
+            reversedStrings += strings[i];
+        }
+    }
+    return reversedStrings += 'aca';
+}
