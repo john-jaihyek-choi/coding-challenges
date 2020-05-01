@@ -17,6 +17,6 @@ function fretFreq(stringNumbers, fretNumber) {
     const stringFrequencies = [329.63, 246.94, 196, 146.83, 110, 82.41];
     const stringFrenquency = stringFrequencies[stringNumbers - 1];
 
-    const noteFrequency = stringFrenquency * Math.pow(2, fretNumber/12);
+    const noteFrequency = Number(stringFrenquency * Math.pow(2, fretNumber/12));
     return noteFrequency.toFixed(2);
 }
