@@ -9,7 +9,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 4/28 (Edabit Questions) Hard: emptySq.js, getMultipliedArr.js, greaterThanOne.js, numberArgs.js, volumeOfBox.js
 - [x] 4/29 (Edabit Questions) Hard: combinations.js ctoa.js towerHanoi.js uncensor.js
 - [x] 4/30 (Edabit Questions) Hard: encrypt.js fretFreq.js recamanIndex.js
-- [ ] 5/1
+- [x] 5/1 (Leetcode Questions) May Challenge: firstBadVersion.js
 - [ ] 5/2
 - [ ] 5/3
 
