@@ -12,14 +12,10 @@
 function filterPrimes (numsArray) {
     const newArr = [];
     for(let i = 0; i < numsArray.length; i++) {
-        let count = 0;
-        for(let j = 1; j < 10; j++) {
-            if((numsArray[i] / j) % 1 !== 0) {
-                count++
-                break;
-            }
+        let counter = 0;
+        for(let j = 1; j < numsArray[i]; j++) {
+            if((numsArray[i] / j) % 1 === 0) counter++;
         }
-        if(count > 0) newArr.push(numsArray[i]);
+        if(counter === 2) newArr.push(numsArray[i]);
     }
-    return newArr;
 }
