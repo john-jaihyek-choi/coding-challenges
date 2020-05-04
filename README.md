@@ -11,7 +11,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 4/30 (Edabit Questions) Hard: encrypt.js fretFreq.js recamanIndex.js
 - [x] 5/1 (Leetcode Questions) May Challenge: firstBadVersion.js
 - [x] 5/2 (Leetcode Questions) May Challenge: numJewelsInStones.js
-- [ ] 5/3
+- [x] 5/3 (Leetcode Questions) May Challenge: ransomNote.js
 
 ### Week2 (5/4 ~ 5/10)
 - [ ] 5/4
