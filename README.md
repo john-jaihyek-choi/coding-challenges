@@ -14,7 +14,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 5/3 (Leetcode Questions) May Challenge: ransomNote.js
 
 ### Week2 (5/4 ~ 5/10)
-- [ ] 5/4
+- [x] 5/4 (Leetcode Questions) May Challenge: numberComplement.js
 - [ ] 5/5
 - [ ] 5/6
 - [ ] 5/7
