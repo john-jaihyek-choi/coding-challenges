@@ -8,12 +8,13 @@
 // if false, return -1;
 
 var firstUniqChar = function(string) {
-    let result = 0;
+    let result = -1;
     for(let i = 0; i < string.length; i++) {
-        if(!string.includes(string[i], i+1)) {
-            result = string.indexOf(string[i]);
-            return result;
+        if(string.indexOf(string[i]) === string.lastIndexOf(string[i])) {
+           result = string.indexOf(string[i]);
+           return result; 
         }
     }
     return result;
 };
+
