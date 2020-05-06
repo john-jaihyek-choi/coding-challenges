@@ -15,7 +15,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 
 ### Week2 (5/4 ~ 5/10)
 - [x] 5/4 (Leetcode Questions) May Challenge: numberComplement.js
-- [ ] 5/5
+- [x] 5/5 (Leetcode Questions) May Challenge: firstUniqueCharacter.js
 - [ ] 5/6
 - [ ] 5/7
 - [ ] 5/8
