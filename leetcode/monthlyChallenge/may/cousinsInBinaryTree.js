@@ -5,25 +5,54 @@
 
 // selfnote: 
 // cousins are the nodes with same depth but with DIFFERENT parent
-// the very first depth (k = 1) will share same parents, so they cannot be cousins
-// but the pair of nodes depth greater than 1 will all be cousins of each other;
-// pattern in this problem: value of the node / 2 and rounded down will always eqal to value of depth;
+
 
 // Pseudocode:
 // declare a function called isCousins with 3 parameters root, x, y
-// instantiate a variable called xDepth and yDepth;
-// for each of the above two variables, do the following mathematic expression: provided node's value's (x for x, y for y) index at root array plus 1 divded by 2 and of its returned value, floor the value;
-// set the first condition checking if xDepth OR yDepth is equal to 1
-// if so, return boolean value of false
-// set the second condition checking if xDepth is strictly equal to yDepth
-// if true, return boolean value of true
-// otherwise, return boolean value of false
+
+// declare a function called findDepth with a parameter root, n, and depth with initial value of 0
+// set a condition to check if val property of the root object is equal to value of n parameter
+// if true, return the depth parameter
+// otherwise, return left property of the root object and findDepth callback function passing in left property of root object, n, and depth plus 1 as an argument 
+// OR right property of the root object and callback of findDepth passing in right property of the root object, n, and depth plus 1 as an arugment
+
+// declare a function called findParent with 3 parameters, root, n, and parent
+// set a condition to check if val property of the root object is equal to n
+// if true, return the parent parameter
+// otherwise, return left property of the root object and findParnet callback function passing in left property of root object, n, and value property of the root object as an argument 
+// OR right property of the root object and callback of findParnet passing in right property of the root object, n, and value property of the root object as an arugment
+
+// instantiate a variable called xDepth, yDepth, xParent, and yParent
+// assign each variable with a callback functions accordingly (x for x y for y depth for findDepth parent for findParent)
+// set a condition to check if xDpeth is equal to yDepth AND xParent is NOT equal to yParent
+// if true, return true;
+// if false, return false;
+
 
 var isCousins = function(root, x, y) {
-    // const xDepth = Math.floor((root.indexOf(x)+1)/2);
-    // const yDepth = Math.floor((root.indexOf(y)+1)/2);
+    let xDepth = findDepth(root, x, 0);
+    let yDepth = findDepth(root, y, 0);
+    let xParent = findParent(root, x, root.val);
+    let yParent = findParent(root, y, root.val);
 
-    // if(xDepth === 1 || yDepth === 1) return false;
-    // if(xDepth === yDepth) return true;
-    // return false
+    if(xDepth == yDepth && xParent != yParent) {
+        return true;
+    } else {
+        return false;
+    }
+
+    function findDepth(root, n, depth=0) {
+        if(root.val == n) {
+            return depth
+        } else {
+            return (root.left && findDepth(root.left,n,depth+1)) || (root.right && findDepth(root.right,n,depth+1))
+        }
+    } 
+    function findParent(root, n, parent) {
+        if(root.val == n) {
+            return parent
+        } else {
+            return (root.left && (findParent(root.left,n,root.val)) || root.right && (findParent(root.right,n,root.val)))
+        }
+    }
 };
