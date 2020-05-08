@@ -17,7 +17,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 5/4 (Leetcode Questions) May Challenge: numberComplement.js
 - [x] 5/5 (Leetcode Questions) May Challenge: firstUniqueCharacter.js
 - [x] 5/6 (Leetcode Questions) May Challenge: majorityElement.js
-- [ ] 5/7
+- [x] 5/7 (Leetcode Questions) May Challenge: cousinsInBinaryTree.js
 - [ ] 5/8
 - [ ] 5/9
 - [ ] 5/10
