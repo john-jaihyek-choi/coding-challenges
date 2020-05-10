@@ -41,7 +41,7 @@ var isPerfectSquare = function(num) {
     let ans = false;
     let start = 1;
     let end = num;
-
+    if(num === 1) return ans = true;
     while( start < end ) {
         let mid = start + Math.floor((end - start) / 2);
         if( Math.pow(mid, 2) === num ) {
@@ -49,7 +49,7 @@ var isPerfectSquare = function(num) {
         } else if ( Math.pow(mid, 2) < num) {
             start = mid + 1;
         } else if ( Math.pow(mid, 2) > num) {
-            end = mid - 1;
+            end = mid;
         }
     }
     return ans
