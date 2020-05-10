@@ -18,6 +18,6 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 5/5 (Leetcode Questions) May Challenge: firstUniqueCharacter.js
 - [x] 5/6 (Leetcode Questions) May Challenge: majorityElement.js
 - [x] 5/7 (Leetcode Questions) May Challenge: cousinsInBinaryTree.js
-- [x] 5/8 (Leetcode Questions) May Challenge: cousinsInBinaryTree.js
-- [ ] 5/9
+- [x] 5/8 (Leetcode Questions) May Challenge: checkIfStraightLine.js
+- [x] 5/9 (Leetcode Questions) May Challenge: validPerfectSquare.js
 - [ ] 5/10
