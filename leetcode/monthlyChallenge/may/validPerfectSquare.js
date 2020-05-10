@@ -20,16 +20,37 @@
 // if true, assign boolean true value to ans and return
 
 
+// first attempt solution 
 var isPerfectSquare = function(num) {
     let ans = false;
     
     if(num % 2 !== 0) {
-        for(let i = 1; i <= Math.ceil(num/4); i+=2) {
+        for(let i = 1; i <= Math.ceil(num/4)+1; i+=2) {
             if( i*i === num ) return ans = true;
         }
     } else {
-        for(let i = 0; i <= Math.ceil(num/4); i+=2) {
+        for(let i = 0; i <= Math.ceil(num/4)+1; i+=2) {
             if( i*i === num ) return ans = true;
         }
     }
+    return ans;
+};
+
+// second attempt solution
+var isPerfectSquare = function(num) {
+    let ans = false;
+    let start = 1;
+    let end = num;
+
+    while( start < end ) {
+        let mid = start + Math.floor((end - start) / 2);
+        if( Math.pow(mid, 2) === num ) {
+            return ans = true;
+        } else if ( Math.pow(mid, 2) < num) {
+            start = mid + 1;
+        } else if ( Math.pow(mid, 2) > num) {
+            end = mid - 1;
+        }
+    }
+    return ans
 };
