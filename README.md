@@ -20,4 +20,4 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 5/7 (Leetcode Questions) May Challenge: cousinsInBinaryTree.js
 - [x] 5/8 (Leetcode Questions) May Challenge: checkIfStraightLine.js
 - [x] 5/9 (Leetcode Questions) May Challenge: validPerfectSquare.js
-- [ ] 5/10
+- [x] 5/10 (Leetcode Questions) May Challenge: findTownJudge.js
