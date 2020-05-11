@@ -21,3 +21,21 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 5/8 (Leetcode Questions) May Challenge: checkIfStraightLine.js
 - [x] 5/9 (Leetcode Questions) May Challenge: validPerfectSquare.js
 - [x] 5/10 (Leetcode Questions) May Challenge: findTownJudge.js
+
+### Week3 (5/11 ~ 5/17)
+- [ ] 5/11 
+- [ ] 5/12 
+- [ ] 5/13 
+- [ ] 5/14 
+- [ ] 5/15 
+- [ ] 5/16 
+- [ ] 5/17 
+
+### Week4 (5/18 ~ 5/24)
+- [ ] 5/18 
+- [ ] 5/19 
+- [ ] 5/20 
+- [ ] 5/21 
+- [ ] 5/22 
+- [ ] 5/23 
+- [ ] 5/24 
