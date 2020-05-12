@@ -43,16 +43,15 @@
 
 
 var floodFill = function(image, sr, sc, newColor) {
-    let start = image[sr][sc];
-    if(!image || start == newColor) return;
+    if(image[sr][sc] == newColor) return image;
 
-    checkAndFill(image, sr, sc, newColor, start);
+    checkAndFill(image, sr, sc, newColor, image[sr][sc]);
     return image;
 };
 
 function checkAndFill(image, row, column, newColor, initial) {
-    if(initial != newColor || row < 0 || column < 0 || row >= image.length || column >= image[0].length) {
-        return
+    if(row < 0 || column < 0 || row >= image.length || column >= image[row].length || image[row][column] != initial ) {
+        return;
     }
     image[row][column] = newColor;
     checkAndFill(image, row - 1, column, newColor, initial)
