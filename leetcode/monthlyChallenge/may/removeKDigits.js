@@ -4,18 +4,18 @@
 // selfnote
 
 var removeKdigits = function(num, k) {
-    let numArr = num.split('').sort();
+    let numArr = num.split('');
     let prevValue = 0;
     let counter = k;
     let stack = []
 
     if(k == num.length) return '0';
-    // if(num.split('').sort() === numArr) {
-    //     for(let i = 0; i < k; i++) {
-    //         stack.pop();
-    //     }
-    //     return stack;
-    // }
+    if(num.split('').sort() === numArr) {
+        for(let i = 0; i < k; i++) {
+            stack.pop();
+            counter--;
+        }
+    }
 
     for(let i = 0; i < num.length; i++) {
         if (counter == 0) {
@@ -32,7 +32,14 @@ var removeKdigits = function(num, k) {
     }
     
     while(stack.length > num.length - k) {
-        stack.pop();
+        if(num.length - k == 1 && num[num.length - 1] == 0) {
+            stack.shift();
+        } else {
+            stack.pop();
+        }
+    }
+    if(String(Number(stack.join(''))) === 'Infinity') {
+        return String(stack.join(''))
     }
     return String(Number(stack.join('')));
 }
