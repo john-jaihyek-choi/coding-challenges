@@ -25,8 +25,8 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 ### Week3 (5/11 ~ 5/17)
 - [x] 5/11 (Leetcode Questions) May Challenge: floodFill.js
 - [x] 5/12 (Leetcode Questions) May Challenge: singleElementInSortedArr.js
-- [x] 5/13 (Leetcode Questions) May Challenge: removeKDigits.js (Work still in progress)
-- [ ] 5/14 
+- [x] 5/13 (Leetcode Questions) May Challenge: removeKDigits.js (Work still in progress); Other Problems: defangIP.js
+- [x] 5/14 (Leetcode Questions) kidsWithGreatNumberCandies.js, numberOfStepsReduce.js (Work still in progress);
 - [ ] 5/15 
 - [ ] 5/16 
 - [ ] 5/17 
