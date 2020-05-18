@@ -29,7 +29,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 5/14 (Leetcode Questions) defangIP.js, numberOfStepsReduce.js (Work still in progress);
 - [x] 5/15 (Leetcode Questions) kidsWithGreatNumberCandies.js, numberOfStepsReduce.js (Work still in progress);
 - [x] 5/16 (Leetcode Questions) decompressRLElist.js smallerNumberThanCurrent.js subtractProductAndSum.js
-- [ ] 5/17 
+- [x] 5/17 (Leetcode Questions) busyStudent.js fidnNumbers.js
 
 ### Week4 (5/18 ~ 5/24)
 - [ ] 5/18 
