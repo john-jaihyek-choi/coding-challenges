@@ -9,8 +9,15 @@
 
 // Pseudocode:
 // declare a function called buildArray with a 2 parameters, target and n
-// set a loop that iterates while value at current iteration is not equal to last index of target array
-// within each iteration 
+// instantiate a variable called resultArr with an initial value of an empty arr;
+// instantiate a variable called i with an initial value of 0;
+// instantiate a variable called currentIndex with an initial value of 1;
+// set a loop that iterates while target at i'th index is valid;
+// within the loop, set a condition to check if currentIndex is equal to target at i'th index
+// if true, push the value 'Push' to the result Array and increment the i;
+// otherwise, push the value 'Push' and 'Pop'
+// on each iteration of the loop, increment the value of currentIndex
+// finally, return the resultArr;
 
 var buildArray = function(target, n) {
     const resultArr = [];
