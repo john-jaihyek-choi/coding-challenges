@@ -32,7 +32,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 5/17 (Leetcode Questions) busyStudent.js fidnNumbers.js
 
 ### Week4 (5/18 ~ 5/24)
-- [ ] 5/18 
+- [x] 5/18 (Leetcode Questions) buildArray.js minTimeToVisitAllPoints.js
 - [ ] 5/19 
 - [ ] 5/20 
 - [ ] 5/21 
