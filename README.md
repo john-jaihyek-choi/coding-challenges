@@ -33,7 +33,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 
 ### Week4 (5/18 ~ 5/24)
 - [x] 5/18 (Leetcode Questions) buildArray.js minTimeToVisitAllPoints.js
-- [ ] 5/19 
+- [x] 5/19 (Leetcode Questions) twoSum.js
 - [ ] 5/20 
 - [ ] 5/21 
 - [ ] 5/22 
