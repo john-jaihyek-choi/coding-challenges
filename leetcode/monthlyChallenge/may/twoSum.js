@@ -14,8 +14,8 @@
     //  set a loop that iterates nums' length many times
     // within each iteration, set another loop that iterates through nums array starting at i+1 value;
         // set a condition to check if value at nums at index i is equal to value at nums at index j;
-        // if true, call the indexOf method on nums object at index of i and push the returned value to the resultArr
-            // call the indexOf method on nums object at index of j and push the returned value to the resultArr;
+        // if true, push the j value to the resultArr
+            // push the i value to resultArr
             // lastly, call sort method of resultArr object then return the returned value;
 
 var twoSum = function(nums, target) {
@@ -23,8 +23,8 @@ var twoSum = function(nums, target) {
     for(let i = 0; i < nums.length; i++) {
         for(let j = i+1; j < nums.length; j++) {
             if(nums[i] + nums[j] == target) {
-                resultArr.push(nums.indexOf(nums[i]));
-                resultArr.push(nums.indexOf(nums[j]));
+                resultArr.push(i);
+                resultArr.push(j);
                 return resultArr.sort();
             }
         }
