@@ -37,5 +37,5 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 5/20 (Leetcode Questions) palindromeNumber.js mergeTwoLists.js
 - [x] 5/21 (Leetcode Questions) longestCommonPrefix.js 
 - [x] 5/22 (Leetcode Questions) isValid.js
-- [ ] 5/23 
+- [x] 5/23 (Leetcode Questions) maximumSubarray.js
 - [ ] 5/24 
