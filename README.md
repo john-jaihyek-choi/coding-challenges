@@ -26,8 +26,8 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 5/11 (Leetcode Questions) May Challenge: floodFill.js
 - [x] 5/12 (Leetcode Questions) May Challenge: singleElementInSortedArr.js
 - [x] 5/13 (Leetcode Questions) May Challenge: removeKDigits.js (Work still in progress)
-- [x] 5/14 (Leetcode Questions) defangIP.js, numberOfStepsReduce.js (Work still in progress);
-- [x] 5/15 (Leetcode Questions) kidsWithGreatNumberCandies.js, numberOfStepsReduce.js (Work still in progress);
+- [x] 5/14 (Leetcode Questions) defangIP.js, numberOfStepsReduce.js (Work still in progress)
+- [x] 5/15 (Leetcode Questions) kidsWithGreatNumberCandies.js, numberOfStepsReduce.js (Work still in progress)
 - [x] 5/16 (Leetcode Questions) decompressRLElist.js smallerNumberThanCurrent.js subtractProductAndSum.js
 - [x] 5/17 (Leetcode Questions) busyStudent.js fidnNumbers.js
 
@@ -38,4 +38,22 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 5/21 (Leetcode Questions) longestCommonPrefix.js 
 - [x] 5/22 (Leetcode Questions) isValid.js
 - [x] 5/23 (Leetcode Questions) maximumSubarray.js
-- [ ] 5/24 
+- [x] 5/24 (Leetcode Questions) climbingStairs.js
+
+### Week5 (5/25 ~ 5/31)
+- [ ] 5/25 (Leetcode Questions) 
+- [ ] 5/26 (Leetcode Questions) 
+- [ ] 5/27 (Leetcode Questions) 
+- [ ] 5/28 (Leetcode Questions) 
+- [ ] 5/29 (Leetcode Questions) 
+- [ ] 5/30 (Leetcode Questions) 
+- [ ] 5/31 (Leetcode Questions) 
+
+### Week6 (6/1 ~ 6/7)
+- [ ] 6/1 (Leetcode Questions) 
+- [ ] 6/2 (Leetcode Questions) 
+- [ ] 6/3 (Leetcode Questions) 
+- [ ] 6/4 (Leetcode Questions) 
+- [ ] 6/5 (Leetcode Questions) 
+- [ ] 6/6 (Leetcode Questions) 
+- [ ] 6/7 (Leetcode Questions) 
