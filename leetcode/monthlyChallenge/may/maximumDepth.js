@@ -13,9 +13,9 @@ var maxDepth = function(root) {
     let deepestDepth = 0;
 
     function checkDepth(root, depth) {
-        if(depth > deepestDepth) deepestDepth = depth;
+        deepestDepth = Math.max(depth, deepestDepth);
         if(!root) {
-            return deepestDepth;
+            return
         }
         checkDepth(root.left, depth + 1);
         checkDepth(root.right, depth + 1);
@@ -24,5 +24,3 @@ var maxDepth = function(root) {
     checkDepth(root, 0);
     return deepestDepth;
 };
-
-// second solution
