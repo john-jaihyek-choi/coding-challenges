@@ -3,10 +3,15 @@
 
 // Pseudocode:
 // declare a function called maxDepth with a single parameter root
-// set a base case to check if root.val is NOT valid
-    // if true, return out of the function
-// call maxDepth function passing in root.left as an argument
-// call maxDepth function passing in root.right as an argument
+// instantitate a variable called deepestDepth with an initial value of 0;
+// declare a function called checkDepth with 2 parameters root and depth
+    // assign deepestDepth a returned value of calling max method of the Math object passing in depth and deepestDepth as an argument;
+    // set a base case to check if root is NOT valid
+        // if true, return out of the function
+    // call maxDepth function passing in root.left and sum of depth plus 1 as an argument
+    // call maxDepth function passing in root.right as sum of depth plus 1 an argument
+// call the checkDepth function passing in root and 0 as an argument
+// return the variable deepestDepth;
 
 // first solution
 var maxDepth = function(root) {
