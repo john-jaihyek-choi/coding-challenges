@@ -41,7 +41,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 5/24 (Leetcode Questions) climbingStairs.js
 
 ### Week5 (5/25 ~ 5/31)
-- [ ] 5/25 (Leetcode Questions) 
+- [x] 5/25 (Leetcode Questions) symmetricTree.js maximumDepth.js
 - [ ] 5/26 (Leetcode Questions) 
 - [ ] 5/27 (Leetcode Questions) 
 - [ ] 5/28 (Leetcode Questions) 
