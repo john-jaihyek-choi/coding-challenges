@@ -35,5 +35,11 @@ var maxProfit = function(prices) {
 
 // second solution
 var maxProfit = function(prices) {
-    
+    let maximumProfit = 0;
+    let cheapest = prices[0];
+    prices.forEach( purchased => {
+        if(purchased < cheapest) cheapest = purchased;
+        if(purchased - cheapest > maximumProfit) maximumProfit = purchased - cheapest;
+    })
+    return maximumProfit;
 };
