@@ -6,10 +6,18 @@
     // on each iteration set a condition to check if value of nums at currentIndex doest NOT exists in the substring of nums between current index + 1 and length of nums - 1
         // if true, 
 
+// first solution
 var singleNumber = function(nums) {
     for(let i = 0; i < nums.length; i++) {
-        if(!(nums.slice(i + 1, nums.length - 1).includes(nums[i]) || nums.slice(0, i).includes(nums[i]))){
+        if(!(nums.slice(i + 1, nums.length).includes(nums[i]) || nums.slice(0, i).includes(nums[i]))){
             return nums[i]
         }
     }
+};
+
+// second solution
+var singleNumber = function(nums) {
+    nums.reduce( (prev, cur) => {
+        prev ^ cur
+    }, 0)
 };
