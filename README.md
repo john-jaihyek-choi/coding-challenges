@@ -43,7 +43,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 ### Week5 (5/25 ~ 5/31)
 - [x] 5/25 (Leetcode Questions) symmetricTree.js maximumDepth.js
 - [x] 5/26 (Leetcode Questions) bestTimeToSellStock.js
-- [ ] 5/27 (Leetcode Questions) 
+- [x] 5/27 (Leetcode Questions) singleNumber.js linkedListCycle.js
 - [ ] 5/28 (Leetcode Questions) 
 - [ ] 5/29 (Leetcode Questions) 
 - [ ] 5/30 (Leetcode Questions) 
