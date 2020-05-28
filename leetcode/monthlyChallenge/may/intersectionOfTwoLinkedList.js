@@ -124,3 +124,79 @@ var getIntersectionNode = function(headA, headB) {
     }
     return null;
 };
+
+// shorter, cleaner version (little shorter runtime than the above solution):
+var getIntersectionNode = function(headA, headB) {
+    let countA = findLength(headA);
+    let countB = findLength(headB);
+    let headAList = headA;
+    let headBList = headB;
+    
+    const diff = Math.max(countA - countB, countB - countA);
+    
+    if(countA > countB) {
+        for(let i = 0; i < diff; i++) {
+            headAList = headAList.next;
+        }
+    } else{
+        for(let i = 0; i < diff; i++) {
+            headBList = headBList.next;
+        }
+    }
+
+    while(headAList) {
+        if(headAList == headBList) {
+            return headAList;
+        }
+        headAList = headAList.next;
+        headBList = headBList.next;
+    }
+    return null;
+};
+
+function findLength(head) {
+    let counter = 0; 
+    let tempHead = head;
+    while(tempHead) {
+        counter++;
+        tempHead = tempHead.next;
+    }
+    return counter;
+}
+
+// different technique to result in shorter code:
+var getIntersectionNode = function(headA, headB) {
+    let countA = findLength(headA);
+    let countB = findLength(headB);
+    let headAList = headA;
+    let headBList = headB;
+    
+    const diff = countA - countB;
+    
+    if(diff < 0) {
+        return getIntersectionNode(headB, headA) 
+    } else{
+        for(let i = 0; i < diff; i++) {
+            headAList = headAList.next;
+        }
+    }
+
+    while(headAList) {
+        if(headAList == headBList) {
+            return headAList;
+        }
+        headAList = headAList.next;
+        headBList = headBList.next;
+    }
+    return null;
+};
+
+function findLength(head) {
+    let counter = 0; 
+    let tempHead = head;
+    while(tempHead) {
+        counter++;
+        tempHead = tempHead.next;
+    }
+    return counter;
+}
