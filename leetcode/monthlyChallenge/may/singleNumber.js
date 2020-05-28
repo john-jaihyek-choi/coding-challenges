@@ -4,7 +4,7 @@
 // declare a function called singleNumber with a single parameter nums
 // set a loop that iterates length of nums many times
     // on each iteration set a condition to check if value of nums at currentIndex doest NOT exists in the substring of nums between current index + 1 and length of nums - 1
-        // if true, 
+        // if true, return nums at i'th index;
 
 // first solution
 var singleNumber = function(nums) {
