@@ -21,8 +21,3 @@ var singleNumber = function(nums) {
         return prev ^ cur
     }, 0)
 };
-
-// third solution
-var singleNumber = function(nums) {
-    
-};
