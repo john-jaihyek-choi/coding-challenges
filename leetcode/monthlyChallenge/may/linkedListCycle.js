@@ -62,8 +62,15 @@ var hasCycle = function(head) {
 
 // second solution
 var hasCycle = function(head) {
+    if(!head) return false;
     let slow = head;
-    let fast = head;
+    let fast = head.next;
 
-    while(fast == slow)
+    while(fast !== slow) {
+        if(!fast || !fast.next) return false;
+
+        slow = slow.next;
+        fast = fast.next.next;
+    }
+    return true;
 };
