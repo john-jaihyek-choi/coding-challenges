@@ -37,7 +37,7 @@
         // set a condition to check if the next property of the fast object is valid
             // if true, set fast to next property of the next property of the fast object;
             // otherwise, return false;
-        // set a condition to check if slow is equal to fast
+        // set a condition to check if slow is equal to fast (*** Important: here, reason why I check slow to fast rather than slow.val to fast.val is because I need to know if they are memory allocated in the same point not comparing the value of the node)
             // if true, return true;
     // if nothing returns in the loop above, return false to indicate that the listNode provided is not a linked list;
 
@@ -58,4 +58,19 @@ var hasCycle = function(head) {
         }
     }
     return false;
+};
+
+// second solution
+var hasCycle = function(head) {
+    if(!head) return false;
+    let slow = head;
+    let fast = head.next;
+
+    while(fast !== slow) {
+        if(!fast || !fast.next) return false;
+
+        slow = slow.next;
+        fast = fast.next.next;
+    }
+    return true;
 };
