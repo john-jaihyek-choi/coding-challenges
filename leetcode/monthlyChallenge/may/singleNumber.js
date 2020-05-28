@@ -17,7 +17,12 @@ var singleNumber = function(nums) {
 
 // second solution
 var singleNumber = function(nums) {
-    nums.reduce( (prev, cur) => {
-        prev ^ cur
+    return nums.reduce( (prev, cur) => {
+        return prev ^ cur
     }, 0)
+};
+
+// third solution
+var singleNumber = function(nums) {
+    
 };
