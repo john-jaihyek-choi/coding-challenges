@@ -45,8 +45,8 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 5/26 (Leetcode Questions) bestTimeToSellStock.js
 - [x] 5/27 (Leetcode Questions) singleNumber.js linkedListCycle.js
 - [x] 5/28 (Leetcode Questions) intersectionOfTwoLinkedList.js
-- [x] 5/29 (Leetcode Questions) sumFractions.js
-- [ ] 5/30 (Leetcode Questions) 
+- [x] 5/29 (Edabit Questions) sumFractions.js
+- [x] 5/30 (Leetcode Questions) mergeTwoBinaryTrees.js
 - [ ] 5/31 (Leetcode Questions) 
 
 ### Week6 (6/1 ~ 6/7)
