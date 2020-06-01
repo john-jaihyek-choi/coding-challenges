@@ -48,3 +48,19 @@ var moveZeroes = function(nums) {
     return newNums;
 };
 
+var moveZeroes = function(nums) {
+    let slow = 0;
+    let fast = 1;
+    while(fast < nums.length) {
+        if(nums[slow] == 0 && nums[fast] == 0) {
+            fast++;
+        } else if(nums[slow] == 0) {
+            nums[slow] = nums[fast];
+            nums[fast] = 0;
+            slow++;
+        } else {
+            fast++;
+            slow++;
+        }
+    }
+};
