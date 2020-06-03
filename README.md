@@ -1,5 +1,5 @@
 # coding-challenges
-Edabit/Leetcode challenges
+Edabit/Leetcode/MyRobin challenges
 
 ## Daily Goal
 AT LEAST 1 problem each day (as of 4/27/2020)
