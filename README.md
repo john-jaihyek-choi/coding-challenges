@@ -51,7 +51,8 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 
 ### Week6 (6/1 ~ 6/7)
 - [x] 6/1 (Leetcode Questions) validAnagram.js
-- [ ] 6/2 (Leetcode Questions) 
+- [x] 6/2 (Leetcode Questions) pathSumsIII.js
+          (myRobin Questions) taxSeasons.js
 - [ ] 6/3 (Leetcode Questions) 
 - [ ] 6/4 (Leetcode Questions) 
 - [ ] 6/5 (Leetcode Questions) 
