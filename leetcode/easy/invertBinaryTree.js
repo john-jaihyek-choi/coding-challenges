@@ -42,6 +42,27 @@
     // call invert function passing root as an argument;
     // return root;
 
+// Recap:
+    // Some challenges I faced was that the only inner layer of the left and right were being inverted
+        // results were:
+            // left.left = left.right
+            // left.right = left.left
+            // right.right = right.left
+            // right.left = right.right
+    // However, I had to make sure that outer layer needed to be inverted as well
+        // for example:
+            // left.left = right.right
+            // left.right = right.left
+            // right.right = left.left
+            // right.left = left.right
+    // Main issue of the naive solution was that I was not passing left and right of the node recursively and separately
+    // Because I set node.left = node.right and node.right to node.left
+        // Now each of its object held:
+            // node.left held children node of what was originally a node.right's 
+            // node.right held children node of what was originally a node.left's
+    // And by passing node.left and node.right as an arugument of invert function, it was recurvsively repeating the process and result to a proper answer.
+
+
 var invertTree = function(root) {
 
     function invert(node) {
