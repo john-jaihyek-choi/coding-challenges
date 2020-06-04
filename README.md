@@ -53,7 +53,8 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 6/1 (Leetcode Questions) validAnagram.js
 - [x] 6/2 (Leetcode Questions) pathSumsIII.js
           (myRobin Questions) taxSeasons.js
-- [ ] 6/3 (Leetcode Questions) 
+- [x] 6/3 (Leetcode Questions) invertBinaryTree.js
+          (myRobin Questions) findingFactorial.js
 - [ ] 6/4 (Leetcode Questions) 
 - [ ] 6/5 (Leetcode Questions) 
 - [ ] 6/6 (Leetcode Questions) 
