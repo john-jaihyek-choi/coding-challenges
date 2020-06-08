@@ -8,10 +8,15 @@
         // within each iteration, starting from the last of the index, set reversedString equal to concatenated value of reversedString and string at i'th index
         // increment the i each operation;
 
-function reverseString(string) {
-    let reversedString = '';
+// Time Complexity: O(n)
+// Space Complexity: O(n)
+    // https://softwareengineering.stackexchange.com/questions/90203/why-is-so-bad-for-concatenation
+
+
+function reverseString(string) { // time / space complexity
+    let reversedString = ''; // O(1) / O(1);
     for(let i = string.length-1; i > 0; i--) {
-        reversedString = reversedString + string[i];
+        reversedString += string[i]; // O(n) / O(n);
     }
-    return reversedString;
+    return reversedString; // O(1) / O(1);
 }
