@@ -58,4 +58,4 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 6/4 (myRobin Questions) spendingSafely.js
 - [x] 6/5 (myRobin Questions) startupNameGenerator.js 
 - [ ] 6/6 (Leetcode Questions) 
-- [ ] 6/7 (Leetcode Questions) 
+- [x] 6/7 (Leetcode Questions) doMath.js
