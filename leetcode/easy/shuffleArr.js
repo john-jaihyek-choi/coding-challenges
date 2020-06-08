@@ -44,3 +44,12 @@ var shuffle = function(array, n) { // time / space complexity
     return resultArr;
 }; 
 
+// solution with improved readability and slightly improved runtime;
+var shuffle = function(array, n) { // time / space complexity
+    const resultArr = []; // O(1) / O(1)
+    for(let i = 0; i < n; i++) {
+        resultArr.push(array[i]) // O(n) / O(n);
+        resultArr.push(array[i+n]); // O(n) / O(n);
+    }
+    return resultArr;
+}; 
