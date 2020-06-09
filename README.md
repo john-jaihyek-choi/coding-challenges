@@ -57,7 +57,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
           (myRobin Questions) findingFactorial.js
 - [x] 6/4 (myRobin Questions) spendingSafely.js
 - [x] 6/5 (myRobin Questions) startupNameGenerator.js 
-- [ ] 6/6 (Leetcode Questions) 
+- [ ] 6/6 
 - [x] 6/7 (myRobin Questions) doMath.js
 
 ### Week7 (6/8 ~ 6/14)
