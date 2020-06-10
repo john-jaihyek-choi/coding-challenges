@@ -63,8 +63,8 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 ### Week7 (6/8 ~ 6/14)
 - [x] 6/8 (Leetcode Questions) shuffleArr.js maximumProductOfTwoElement.js
           (myRobin Questions) reverseString.js
-- [ ] 6/9 (Leetcode Questions)
-          (myRobin Questions)
+- [x] 6/9 (myRobin Questions) makeFrame.js
+          (Google Interview Questions) containsCommonItem.js
 - [ ] 6/10 (Leetcode Questions)
            (myRobin Questions)
 - [ ] 6/11 (Leetcode Questions)
