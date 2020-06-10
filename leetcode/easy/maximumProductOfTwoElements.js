@@ -36,3 +36,11 @@ var maxProduct = function(nums) { // Time / Space Complexity
     }
     return highest;
 };
+
+// shorter and improved readability
+var maxProduct = function(nums) { // Time / Space Complexity
+    const newArr = nums.sort( (a,b) => {
+        return b-a
+    });
+    return (newArr[0]-1) * (newArr[1]-1)
+};
