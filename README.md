@@ -65,8 +65,8 @@ AT LEAST 1 problem each day (as of 4/27/2020)
           (myRobin Questions) reverseString.js
 - [x] 6/9 (myRobin Questions) makeFrame.js
           (Google Interview Questions) containsCommonItem.js
-- [ ] 6/10 (Leetcode Questions)
-           (myRobin Questions)
+- [x] 6/10 (Leetcode Questions) twoSum.js (better solution updated)
+           (myRobin Questions) dietTracker.js
 - [ ] 6/11 (Leetcode Questions)
            (myRobin Questions)
 - [ ] 6/12 (Leetcode Questions)
