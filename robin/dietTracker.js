@@ -26,6 +26,7 @@
 function countSuccessDays(diets) {
     let successDays = 0;
     for(let i = 1; i < diets.length; i++) {
+        if(!diets[i][0] || !diets[i][1] || !Number(diets[i][0] || !Number(diets[i][1]))) return message = 'invalid information on day ' + (i+1);
         if(diets[i][0] < diets[i-1][0] && diets[i][1] > diets[i-1][1]) {
             successDays++;
         }
@@ -34,7 +35,7 @@ function countSuccessDays(diets) {
 }
 
 const mayDiet = [[350, 1], [450, 2], [250, 3], [550, 2]];
-const juneDiet = [[550, 1], [450, 2], [250, 3], [150, 2]];
+const juneDiet = [[550, 1], ['a', 2], [250, 3], [150, 2]];
 
 console.log(countSuccessDays(mayDiet));
 console.log(countSuccessDays(juneDiet));
