@@ -48,3 +48,23 @@
         return temp;
     }
     
+// Brainstorm:
+// Second approach: Linear time complexity
+    // Some possible approach:
+        // hashTables: tradeoff between space and time;
+            // loop through the arr initially and create a key value pair for all values
+                // during loop, if we find existing value,
+                    // return the key of that value
+
+function firstRecurrence(arr) { // Time / Space Complexity
+    const hashObj = {};
+    for(let i = 0; i < arr.length; i++) { // O(n) / O(n);
+        console.log(i, arr[i]);
+        if(hashObj[arr[i]]) {
+            return arr[i];
+        } else {
+            hashObj[arr[i]] = i+1;
+        }
+    }
+    return undefined;
+}
