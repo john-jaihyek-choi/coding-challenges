@@ -97,10 +97,6 @@ function lonelyScrabble(words) {
         z: 10
     }
 
-    const temp = {
-
-    }
-
     const scoreBoard = {};
     let highestScore = 0;
 
