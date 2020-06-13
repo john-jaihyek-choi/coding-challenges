@@ -69,8 +69,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
            (myRobin Questions) dietTracker.js
 - [x] 6/11 (Data Structure Practice Questions) firstRecurrence.js
            (myRobin Questions) bigONotation1.js
-- [ ] 6/12 (Leetcode Questions)
-           (myRobin Questions)
+- [x] 6/12 (myRobin Questions) scrabble.js
 - [ ] 6/13 (Leetcode Questions)
            (myRobin Questions)
 - [ ] 6/14 (Leetcode Questions)
