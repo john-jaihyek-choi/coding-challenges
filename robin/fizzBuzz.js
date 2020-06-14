@@ -5,7 +5,7 @@
         // 3: Fizz;
         // 5: Buzz;
         // 7: Fuzz
-        // 7 && 3: BuzzFuzz;
+        // 7 && 3: FizzFuzz;
         // 7 && 5: BuzzFuzz;
         // 3 && 5 && 7: FizzBuzZFuzz
 // what about 3 && 5?
@@ -13,26 +13,33 @@
 
 // Brainstorm:
     // use mod to find multiples of a each number;
-    // set total of 5 conditions to return different strings in a loop;
+    // use hashTable to return different results;
 
 // Pseudocode:
 // declare a function called fizzBuzz with no parameter
+    // instantiate a variable called rule with an object with condition rules (number as key and string as value)
     // set a loop that iterates 150 times starting from index 1;
-        // set a condition to check if i'th index is mod of 3 && 7 && 5;
-        // set a condition to check if i'th index is mod of 7 && 3;
-        // set a condition to check if i'th index is mod of 3;
-        // set a condition to check if i'th index is mod of 5;
-        // set a condition to check if i'th index is mod of 7;
+        // instantiate a string with empty variable every iteration
+        // set a condition to check if i mod 3 is equal to 0
+            // if true, concatenate string with 3 property of the rule object;
+        // set a condition to check if i mod 5 is equal to 0
+            // if true, concatenate string with 5 property of the rule object;
+        // set a condition to check if i mod 7 is equal to 0
+            // if true, concatenate string with 7 property of the rule object;
 
+
+// Solution approach with hashtable
 function fizzBuzz() {
-    for(let i = 1; i <= 150; i++) {
-        if(i % 3 == 0 && i % 5 == 1 && i % 7 == 1) console.log('Fizz');
-        if(i % 5 == 0 && i % 3 == 1 && i % 7 == 1) console.log('Buzz');
-        if(i % 7 == 0 && i % 3 == 1 && i % 5 == 1) console.log('Fuzz');
-        if(i % 3 == 0 && i % 7 == 0 && i % 5 == 1) console.log('FizzFuzz');
-        if(i % 3 == 0 && i % 5 == 0 && i % 7 == 0) console.log('FizzBuzZFuzz');
+    const rule = {
+        3: 'Fizz',
+        5: 'Buzz',
+        7: 'Fuzz'
     }
-    return message = 'finished';
+    for(let i = 1; i <= 150; i++) {
+        let string = ''
+        if(i % 3 == 0) string += rule[3];
+        if(i % 5 == 0) string += rule[5];
+        if(i % 7 == 0) string += rule[7];
+        if(string) console.log(string);
+    }
 }
-
-console.log(fizzBuzz());
