@@ -71,14 +71,11 @@ AT LEAST 1 problem each day (as of 4/27/2020)
            (myRobin Questions) bigONotation1.js
 - [x] 6/12 (myRobin Questions) scrabble.js
 - [x] 6/13 (myRobin Questions) closestPalindrome.js
-- [ ] 6/14 (Leetcode Questions)
-           (myRobin Questions)
+- [x] 6/14 (myRobin Questions) fizzBuzz.js
 
 ### Week8 (6/15 ~ 6/21)
-- [ ] 6/15 (Leetcode Questions)
-           (myRobin Questions)
-- [ ] 6/16 (Leetcode Questions)
-           (myRobin Questions)
+- [x] 6/15 (myRobin Questions) pyramid.js
+- [x] 6/16 (myRobin Questions) implementQueue.js
 - [ ] 6/17 (Leetcode Questions)
            (myRobin Questions)
 - [ ] 6/18 (Leetcode Questions)
