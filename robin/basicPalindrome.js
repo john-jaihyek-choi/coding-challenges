@@ -20,12 +20,29 @@
     // instantiate a variable called left and right
         // assign left an initial value of 0;
         // assin right an initial value of length property fo the newString minus 1;
-    // set a loop that iterates while left is greater than or equal to right;
+    // set a loop that iterates while left is less than or equal to right;
         // within each iteration,
-            // set a condition to check if value at left index of the newString is equal to the right index of the newString;
+            // set a condition to check if value at left index of the newString is NOT equal to the right index of the newString;
                 // if true,
+                    // return false;
+                // otherwise,
                     // increment left by one
                     // decrement right by one
-                // otherwise, return false
+
     // if nothing is returned from the above functions, return true;
-    
+
+function isPalindrome(string) {
+    if(!string) return console.log('please input a valid string value')
+    const newString = (string.replace(/\s/g, "")).toLowerCase(); //
+    let left = 0;
+    let right = newString.length - 1;
+
+    while(left <= right) {
+        if(newString[left] !== newString[right]) return false;
+        left++;
+        right--;
+    }
+    return true;
+}
+
+console.log(isPalindrome('Was it a cat I saw'))
