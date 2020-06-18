@@ -31,16 +31,18 @@
 
     // if nothing is returned from the above functions, return true;
 
-function isPalindrome(string) {
+// overall time complexity: O(n) / O(1);
+function isPalindrome(string) { // Time / Space Complexity
     if(!string) return console.log('please input a valid string value')
-    const newString = (string.replace(/\s/g, "")).toLowerCase(); //
-    let left = 0;
-    let right = newString.length - 1;
+    
+    const newString = (string.replace(/\s/g, "")).toLowerCase(); // O(n) / O(1);
+    let left = 0; // O(1) / O(1)
+    let right = newString.length - 1; // O(1) / O(1)
 
     while(left <= right) {
         if(newString[left] !== newString[right]) return false;
-        left++;
-        right--;
+        left++; // O(n) / O(1)
+        right--; // O(n) / O(1);
     }
     return true;
 }
