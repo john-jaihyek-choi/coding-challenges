@@ -76,8 +76,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 ### Week8 (6/15 ~ 6/21)
 - [x] 6/15 (myRobin Questions) pyramid.js
 - [x] 6/16 (myRobin Questions) implementQueue.js
-- [ ] 6/17 (Leetcode Questions)
-           (myRobin Questions)
+- [x] 6/17 (myRobin Questions) basicPalindrome.js
 - [ ] 6/18 (Leetcode Questions)
            (myRobin Questions)
 - [ ] 6/19 (Leetcode Questions)
