@@ -28,7 +28,7 @@
             // in the above statement, I need to lowercase the haystack and needle
         // if true, return 1
     // otherwise return -1
-    
+
 
 function strStr(haystack, needle) {
     if((!haystack && !needle.length) || !needle) return 0;
@@ -38,5 +38,18 @@ function strStr(haystack, needle) {
     }
 
     return -1
+}
+
+// How to implement by breaking down substring method
+function strStr(haystack, needle) {
+    if((!haystack && !needle.length) || !needle) return 0;
+    for(let i = 0; i <= haystack.length - needle.length; i++) {
+        let subString = ''
+        for(let j = i; j < i + needle.length; j++) {
+            subString += haystack[j].toLowerCase();
+        }
+        if(subString == needle.toLowerCase()) return i;
+    }
+    return -1;
 }
 
