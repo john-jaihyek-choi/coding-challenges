@@ -34,7 +34,7 @@ function strStr(haystack, needle) {
     if((!haystack && !needle.length) || !needle) return 0;
 
     for(let i = 0; i <= haystack.length - needle.length; i++) {
-        if(haystack.toLowerCase().substring(i,i + needle.length) == needle.toLowerCase()) return i
+        if(haystack.toLowerCase().substring(i,i + needle.length) == needle.toLowerCase()) return i; // O(n ^ 2) / O(1);
     }
 
     return -1
@@ -46,7 +46,7 @@ function strStr(haystack, needle) {
     for(let i = 0; i <= haystack.length - needle.length; i++) {
         let subString = ''
         for(let j = i; j < i + needle.length; j++) {
-            subString += haystack[j].toLowerCase();
+            subString += haystack[j].toLowerCase(); // O(n ^ 2) / O(1);
         }
         if(subString == needle.toLowerCase()) return i;
     }
