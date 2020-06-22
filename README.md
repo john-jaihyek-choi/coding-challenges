@@ -81,5 +81,4 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 6/19 (myRobin Questions) hitJackpot.js
 - [x] 6/20 (Leetcode Questions) implementStrStr.js
            (myRobin Questions) formatPhoneNumber.js
-- [ ] 6/21 (Leetcode Questions)
-           (myRobin Questions)
+- [x] 6/21 (myRobin Questions) endOfPandemic.js
