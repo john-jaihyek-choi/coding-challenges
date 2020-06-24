@@ -9,13 +9,13 @@
 // declare a function called multiplicationTable with a single parameter number;
 // set a loop that iterates number many times
     // within it,
-    // set another loop that iterates number many times;
+    // set another loop that iterates 9 times;
         // on each iteration of the inner loop, call the log method of console passing in i + j = i*j;
 // since the function will simply print, no need to return anything;
 
 function multiplicationTable(number) {
     for(let i = 1; i <= number; i++) {
-        for(let j = 1; j <= number; j++) {
+        for(let j = 1; j <= 9; j++) {
             console.log(`${i} x ${j} = ${i*j}`)
         }
     }
@@ -23,3 +23,21 @@ function multiplicationTable(number) {
 
 console.log(multiplicationTable(9))
 
+
+// Other approach:
+
+function multiplicationTable(number) {
+    const object = {};
+
+    for(let i = 1; i <= number; i++) {
+        object[i] = [];
+    }
+
+    for(number in object) {
+        for(let j = 1; j <= 9; j++) {
+            console.log(`${number} x ${j} = ${number * j}`)
+        }
+    }
+}
+
+multiplicationTable(9)
