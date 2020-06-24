@@ -86,7 +86,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 ### Week9 (6/22 ~ 6/28)
 - [x] 6/22 (myRobin Questions) isFullHouse.js
            (Reading Questions) chessBoard.js
-- [ ] 6/23 (myRobin Questions) 
+- [x] 6/23 (myRobin Questions) multiplicationTable.js
 - [ ] 6/24 (myRobin Questions) 
 - [ ] 6/25 (myRobin Questions) 
 - [ ] 6/26 (myRobin Questions) 
