@@ -6,8 +6,9 @@
 
 // Pseudocode:
 // declare a function called killTheFly with a single parameter, string;
-    // call the match method of the string object
-        // and call a join method of its returned value
+    // instantiate a variable called fly and assign the following value:
+        // call the match method of the string object passing in regex condition as an argument;
+            // and call a join method of its returned value passing in empty string as an argument
     // return the above value;
 
 function killTheFly(string) {
@@ -15,3 +16,6 @@ function killTheFly(string) {
     if(fly.length === string.length) return message = 'No flies here!';
     return fly;
 }
+
+console.log(killTheFly('gone'))
+    
