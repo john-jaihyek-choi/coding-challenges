@@ -88,7 +88,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
            (Reading Questions) chessBoard.js
 - [x] 6/23 (myRobin Questions) multiplicationTable.js
 - [x] 6/24 (myRobin Questions) vowelChars.js
-- [ ] 6/25 (myRobin Questions) 
+- [x] 6/25 (myRobin Questions) eliminateFly.js
 - [ ] 6/26 (myRobin Questions) 
 - [ ] 6/27 (myRobin Questions) 
 - [ ] 6/28 (myRobin Questions) 
