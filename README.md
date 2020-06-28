@@ -90,7 +90,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 6/24 (myRobin Questions) vowelChars.js
 - [x] 6/25 (myRobin Questions) eliminateFly.js
 - [ ] 6/26 (myRobin Questions) 
-- [ ] 6/27 (myRobin Questions) 
+- [x] 6/27 (myRobin Questions) checkTheBox.js
 - [ ] 6/28 (myRobin Questions) 
 
 ### Week10 (6/29 ~ 7/4)
