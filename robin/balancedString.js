@@ -58,3 +58,28 @@ function balancedString (string) { // Time / Space Complexity (O(n) / O(1))
     if(leftSum === rightSum) return true;
     return false;
 }
+
+function balancedString (string) { // Time / Space Complexity (O(n) / O(1))
+    if(!string) return true;
+
+    let leftSum = 0;
+    let rightSum = 0;
+    let midPoint = Math.floor(string.length / 2);
+    let leftIndex = 0;
+    let rightIndex = midPoint;
+
+    if(string.length % 2 === 0) {
+        for(let i = 0; i < midPoint; i++) {
+            leftSum += string[leftIndex++].charCodeAt(0) - 97; // O(n) / O(1);
+            rightSum += string[rightIndex++].charCodeAt(0) - 97; // O(n) / O(1);
+        };
+    } else {
+        for(let i = 0; i < midPoint+1; i++) {
+            leftSum += string[leftIndex++].charCodeAt(0) - 97; // O(n) / O(1);
+            rightSum += string[rightIndex++].charCodeAt(0) - 97; // O(n) / O(1);
+        };
+    }
+
+    if(leftSum === rightSum) return true;
+    return false;
+}
