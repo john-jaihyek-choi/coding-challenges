@@ -33,6 +33,8 @@
         // otherwise, return false;
 
 function balancedString (string) { // Time / Space Complexity (O(n) / O(1))
+    if(!string) return true;
+
     let leftSum = 0;
     let rightSum = 0;
     let midPoint = Math.floor(string.length / 2);
