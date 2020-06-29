@@ -32,27 +32,25 @@
         // if true, return true,
         // otherwise, return false;
 
-function balancedString (string) {
+function balancedString (string) { // Time / Space Complexity (O(n) / O(1))
     let leftSum = 0;
     let rightSum = 0;
+    let midPoint = Math.floor(string.length / 2);
 
     if(string.length % 2 === 0) {
-        let leftMid = Math.floor(string.length / 2);
-        let rightMid = leftMid + 1;
-        for(let i = 0; i <= leftMid; i++) {
-            leftSum += string[i].charCodeAt(0) - 97;
-        }
-        for(let j = rightMid; j < string.length; j++) {
-            rightSum += string[j].charCodeAt(0) - 97;
-        }
-    } else {
-        let midPoint = Math.floor(string.length / 2);
-        for(let i = 0; i <= midPoint; i++) {
-            leftSum += string[i].charCodeAt(0) - 97;
-        }
+        for(let i = 0; i < midPoint; i++) {
+            leftSum += string[i].charCodeAt(0) - 97; // O(n) / O(1);
+        };
         for(let j = midPoint; j < string.length; j++) {
-            rightSum += string[j].charCodeAt(0) - 97;
-        }
+            rightSum += string[j].charCodeAt(0) - 97; // O(n) / O(1);
+        };
+    } else {
+        for(let i = 0; i <= midPoint; i++) {
+            leftSum += string[i].charCodeAt(0) - 97; // O(n) / O(1);
+        };
+        for(let j = midPoint; j < string.length; j++) {
+            rightSum += string[j].charCodeAt(0) - 97; // O(n) / O(1);
+        };
     }
 
     if(leftSum === rightSum) return true;
