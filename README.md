@@ -94,7 +94,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 6/28 (myRobin Questions) balancedString.js
 
 ### Week10 (6/29 ~ 7/4)
-- [ ] 6/29 (myRobin Questions) 
+- [x] 6/29 (myRobin Questions) arrangeArray.js
 - [ ] 6/30 (myRobin Questions) 
 - [ ] 6/31 (myRobin Questions) 
 - [ ] 7/1 (myRobin Questions) 
