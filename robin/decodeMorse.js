@@ -6,9 +6,10 @@
         // ..- can both mean 'it' and 'u'
 // Is it safe to assume that there will be spaces between each characters?
     // if above assumption is true, will actual 'space' be two empty spaces?
+// // Will there be an uppercase?
 
 // Brainstorm:
-// Assuming that the morsecode will have empty space between codes that indicates each character...
+// Assuming that the morsecode will have empty space between codes that indicates each character AND actual spaces will have 2 spaces...
     // split the morseCode arr and loop through each one of them
         // look up the code at each iteration from the morseCode object;
             // check if the value of iteration is a valid property of the morseCode object;
