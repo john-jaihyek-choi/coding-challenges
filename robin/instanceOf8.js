@@ -18,9 +18,9 @@
             // if true, increment count;
 // after the loop has finished, return the count variable;
 
-function findInstances() {
+function findInstances(range) {
     let count = 0;
-    for(let i = 1; i < 10000; i++) {
+    for(let i = 1; i <= range; i++) {
         const digit = String(i)
         for(let j = 0; j < digit.length; j++) {
             if(digit[j] == 8) {
@@ -30,3 +30,4 @@ function findInstances() {
     }
     return count;
 }
+
