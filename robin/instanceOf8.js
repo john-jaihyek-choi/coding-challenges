@@ -31,3 +31,17 @@ function findInstances(range) {
     return count;
 }
 
+function findInstances(range) {
+    let count = 0;
+    const instances = {};
+    for(let i = 1; i <= range; i++) {
+        const match = String(i).match(/[8]/g);
+        if(match) instances[i] = match.length;
+    }
+
+    for(instance in instances) {
+        count += instances[instance];
+    }
+    
+    return count
+}
