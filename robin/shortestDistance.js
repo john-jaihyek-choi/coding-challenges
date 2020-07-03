@@ -19,18 +19,37 @@
                     // otherwise, call a Array constructor passing in pair object as arugment and assigning its returned value as the a property name with the value of diff in hashTable;
         // return 0th index of the returned value of calling values method of the Object method, passing in hashTable as an argument;
         
-
+// unsorted input case:
 function shortestDistance (arr) {
     const hashTable = {};
     for(let i = 0; i < arr.length; i++) {
         for(let j = i + 1; j < arr.length; j++) {
-            const diff = arr[j] - arr[i];
-            const pair = new Array(arr[i], arr[j]);
+            const diff = arr[j] - arr[i]; // O(n^2) / O(1);
+            const pair = new Array(arr[i], arr[j]); // O(n^2) / O(1);
             if(hashTable[diff]) {
-                hashTable[diff].push(pair)
+                hashTable[diff].push(pair) // O(n^2) / O(1);
             } else {
-                hashTable[diff] = new Array(pair);
+                hashTable[diff] = new Array(pair); // O(n^2) / O(1);
             }
+        }
+    }
+
+    return Object.values(hashTable)[0];
+}
+
+// sorted input case:
+function shortestDistance (arr) {
+    const hashTable = {};
+    for(let i = 1; i < arr.length; i++) {
+        const prev = arr[i-1];
+        const curr = arr[i];
+        const diff = curr - prev; 
+        const pair = new Array(prev, curr);
+
+        if(hashTable[diff]) {
+            hashTable[diff].push(pair)
+        } else {
+            hashTable[diff] = new Array(pair);
         }
     }
 
