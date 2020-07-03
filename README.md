@@ -97,7 +97,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 6/29 (myRobin Questions) arrangeArray.js
 - [x] 6/30 (myRobin Questions) decodeMorse.js
 - [x] 7/1 (myRobin Questions) instancesOf8.js
-- [ ] 7/2 (myRobin Questions) 
+- [x] 7/2 (myRobin Questions) shortestDistance.js
 - [ ] 7/3 (myRobin Questions) 
 - [ ] 7/4 (myRobin Questions) 
 - [ ] 7/5 (myRobin Questions) 
