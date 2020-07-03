@@ -12,10 +12,11 @@
         // instantiate a variable called hashTable with an empty object as an initial value;
         // set a loop that iterates arr's length many times
             // set another loop that iterates arr's length many times starting from i + 1 index;
-                // instantiate a variable called diff and assign the following value:
-                    // j'th index of the arr object minus the i'th index of the arr object's property of the hashTable object
-                    // and set its value to an empty array;
-                // push an array consisting i'th index of the arr as the 0th index and j'th index of the arr as the 1st index;
+                // instantiate a variable called diff and assign the returned value of arr at j'th index minus arr at i'th index;
+                // instantiate a variable called pair and assign the returned value of calling Array constructor passing arr at i'th index as first argument and arr at j'th index as the second argument;
+                // set condition to check if hasTable at diff index is valid 
+                    // if true, call a push method of the hashTable at diff index, passing pair as an argument
+                    // otherwise, call a Array constructor passing in pair object as arugment and assigning its returned value as the a property name with the value of diff in hashTable;
         // return 0th index of the returned value of calling values method of the Object method, passing in hashTable as an argument;
         
 
@@ -23,12 +24,17 @@ function shortestDistance (arr) {
     const hashTable = {};
     for(let i = 0; i < arr.length; i++) {
         for(let j = i + 1; j < arr.length; j++) {
-            const diff = hashTable[arr[j] - arr[i]] = [];
-            diff.push([arr[i], arr[j]]);
+            const diff = arr[j] - arr[i];
+            const pair = new Array(arr[i], arr[j]);
+            if(hashTable[diff]) {
+                hashTable[diff].push(pair)
+            } else {
+                hashTable[diff] = new Array(pair);
+            }
         }
     }
 
     return Object.values(hashTable)[0];
 }
 
-console.log(shortestDistance([1, 3, 4, 8, 13, 17, 20]))
+console.log(shortestDistance([1, 3, 4, 5, 6, 7, 13, 19, 20]))
