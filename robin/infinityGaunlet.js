@@ -19,7 +19,7 @@ function removeHalf(array) {
 
     for(let i = 0; i <= Math.ceil((array.length / 2)) + 1; i++) {
         const randomIndex = Math.floor(Math.random() * resultArr.length + 1)
-        resultArr.splice(randomIndex-1, 1);
+        resultArr.splice(randomIndex-1, 1); // O(n^2);
     }
 
         return resultArr;
