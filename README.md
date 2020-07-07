@@ -93,7 +93,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 6/27 (myRobin Questions) checkTheBox.js
 - [x] 6/28 (myRobin Questions) balancedString.js
 
-### Week10 (6/29 ~ 7/4)
+### Week10 (6/29 ~ 7/5)
 - [x] 6/29 (myRobin Questions) arrangeArray.js
 - [x] 6/30 (myRobin Questions) decodeMorse.js
 - [x] 7/1 (myRobin Questions) instancesOf8.js
@@ -101,3 +101,21 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [ ] 7/3 (myRobin Questions) 
 - [x] 7/4 (myRobin Questions) countAdverb.js
 - [x] 7/5 (myRobin Questions) infinityGauntlet.js
+
+### Week11 (7/6 ~ 7/12)
+- [x] 7/6 (myRobin Questions) scanNumberStrings.js
+- [ ] 7/7 (myRobin Questions) 
+- [ ] 7/8 (myRobin Questions) 
+- [ ] 7/9 (myRobin Questions) 
+- [ ] 7/10 (myRobin Questions) 
+- [ ] 7/11 (myRobin Questions) 
+- [ ] 7/12 (myRobin Questions) 
+
+### Week12 (7/13 ~ 7/19)
+- [ ] 7/13 (myRobin Questions) 
+- [ ] 7/14 (myRobin Questions) 
+- [ ] 7/15 (myRobin Questions) 
+- [ ] 7/16 (myRobin Questions) 
+- [ ] 7/17 (myRobin Questions) 
+- [ ] 7/18 (myRobin Questions) 
+- [ ] 7/19 (myRobin Questions) 
