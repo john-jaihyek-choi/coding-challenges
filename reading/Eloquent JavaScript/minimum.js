@@ -4,11 +4,8 @@ function min(num1, num2) {
     const first = Number(num1);
     const second = Number(num2);
 
-    if(first > second) {
-      return second;
-    } else {
-      return first;
-    }
+    if(first > second) return second;
+    return first;
 }
 
 console.log(min(0, 10));
