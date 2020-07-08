@@ -3,16 +3,16 @@
 // Next, write a function called countChar that behaves like countBs, except it takes a second argument that indicates the character that is to be counted (rather than counting only uppercase “B” characters). Rewrite countBs to make use of this new function.
 
 function countChar(string, char) {
-    
-    function countBs(string) {
-        let count = 0;
-        for(let i = 0; i < string.length; i++) {
-            if(string[i] === char) count++;
-        }
-        return count;
-    }
+    let count = 0;
 
-    return countBs(string);
+    for(let i = 0; i < string.length; i++) {
+        if(string[i] === char) count++;
+    }
+    return count;
 }
 
-console.log(countChar('kakkerlak', 'k'));
+function countBs(string) {
+    return countChar(string, 'B');
+}
+
+console.log(countBs('BBC'));
