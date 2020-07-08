@@ -19,7 +19,14 @@
     // instantiate a variable called startIndex with an initial value of 0;
     // instantiate a variable called resultArr with an empty array;
     // set a loop that iterates the length property of the string many times
-        // 
+        // on each iteration, increment the value of parenthesis of i'th index of the string object property;
+        // set a condition to check if ')' property and '(' is strictly equal to each other;
+            // if true, call a substring method of the string object passing in startIndex as first and i+1 as second argument
+                // call a push method of the resultArr object passing in returned value of the above expression as an argument
+            // set startIndex equal to i+1;
+    // set a condition to check if ')' property and '(' is NOT equal to each other;
+        // if true, return a message containing the proper message;
+    // return resultArr;
 
 function balanceParenthesis(string) {
     const parenthesis = {
@@ -41,3 +48,4 @@ function balanceParenthesis(string) {
 
     return resultArr;
 }
+
