@@ -105,7 +105,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 ### Week11 (7/6 ~ 7/12)
 - [x] 7/6 (myRobin Questions) scanNumberStrings.js
 - [x] 7/7 (myRobin Questions) balancedString2.js
-- [ ] 7/8 (myRobin Questions) 
+- [x] 7/8 (myRobin Questions) addDigits.js
 - [ ] 7/9 (myRobin Questions) 
 - [ ] 7/10 (myRobin Questions) 
 - [ ] 7/11 (myRobin Questions) 
