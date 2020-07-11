@@ -107,7 +107,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 7/7 (myRobin Questions) balancedString2.js
 - [x] 7/8 (myRobin Questions) addDigits.js
 - [x] 7/9 (myRobin Questions) generateHex.js
-- [ ] 7/10 (myRobin Questions) 
+- [x] 7/10 (myRobin Questions) implementBSTLookUp.js
 - [ ] 7/11 (myRobin Questions) 
 - [ ] 7/12 (myRobin Questions) 
 
