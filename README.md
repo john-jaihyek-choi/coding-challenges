@@ -109,7 +109,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 7/9 (myRobin Questions) generateHex.js
 - [x] 7/10 (myRobin Questions) implementBSTLookUp.js
 - [ ] 7/11 (myRobin Questions) 
-- [ ] 7/12 (myRobin Questions) 
+- [x] 7/12 (myRobin Questions) validateUrl.js
 
 ### Week12 (7/13 ~ 7/19)
 - [ ] 7/13 (myRobin Questions) 
