@@ -116,6 +116,6 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 7/14 (myRobin Questions) removeInstanceOfString.js
 - [x] 7/15 (myRobin Questions) hungryNumber.js
 - [x] 7/16 (myRobin Questions) freeShipping.js
-- [ ] 7/17 (myRobin Questions) 
+- [x] 7/17 (myRobin Questions) evenFibonacci.js
 - [ ] 7/18 (myRobin Questions) 
 - [ ] 7/19 (myRobin Questions) 
