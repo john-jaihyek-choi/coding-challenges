@@ -118,4 +118,4 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 7/16 (myRobin Questions) freeShipping.js
 - [x] 7/17 (myRobin Questions) evenFibonacci.js
 - [x] 7/18 (myRobin Questions) convertToPotholeCase.js
-- [ ] 7/19 (myRobin Questions) 
+- [x] 7/19 (myRobin Questions) decodeMorse2.js
