@@ -119,3 +119,21 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 7/17 (myRobin Questions) evenFibonacci.js
 - [x] 7/18 (myRobin Questions) convertToPotholeCase.js
 - [x] 7/19 (myRobin Questions) decodeMorse2.js
+
+### Week13 (7/20 ~ 7/26)
+- [ ] 7/20 (myRobin Questions) 
+- [ ] 7/21 (myRobin Questions)
+- [ ] 7/22 (myRobin Questions) 
+- [ ] 7/23 (myRobin Questions) 
+- [ ] 7/24 (myRobin Questions) 
+- [ ] 7/25 (myRobin Questions) 
+- [ ] 7/26 (myRobin Questions) 
+
+### Week14 (7/27 ~ 8/2)
+- [ ] 7/27 (myRobin Questions) 
+- [ ] 7/28 (myRobin Questions)
+- [ ] 7/29 (myRobin Questions) 
+- [ ] 7/30 (myRobin Questions) 
+- [ ] 7/31 (myRobin Questions) 
+- [ ] 8/1 (myRobin Questions) 
+- [ ] 8/2 (myRobin Questions) 
