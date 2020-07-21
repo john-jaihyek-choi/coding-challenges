@@ -121,7 +121,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 7/19 (myRobin Questions) decodeMorse2.js
 
 ### Week13 (7/20 ~ 7/26)
-- [ ] 7/20 (myRobin Questions) 
+- [x] 7/20 (myRobin Questions) checkForPair.js
 - [ ] 7/21 (myRobin Questions)
 - [ ] 7/22 (myRobin Questions) 
 - [ ] 7/23 (myRobin Questions) 
