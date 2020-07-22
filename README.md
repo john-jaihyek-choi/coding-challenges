@@ -122,7 +122,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 
 ### Week13 (7/20 ~ 7/26)
 - [x] 7/20 (myRobin Questions) checkForPair.js
-- [ ] 7/21 (myRobin Questions)
+- [x] 7/21 (myRobin Questions) petalsOfLove.js
 - [ ] 7/22 (myRobin Questions) 
 - [ ] 7/23 (myRobin Questions) 
 - [ ] 7/24 (myRobin Questions) 
