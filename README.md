@@ -125,7 +125,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 7/21 (myRobin Questions) petalsOfLove.js
 - [x] 7/22 (myRobin Questions) viewMyConnection.js
 - [x] 7/23 (myRobin Questions) getSplitTotal.js
-- [ ] 7/24 (myRobin Questions) 
+- [x] 7/24 (myRobin Questions) findUniqueValue.js
 - [ ] 7/25 (myRobin Questions) 
 - [ ] 7/26 (myRobin Questions) 
 
