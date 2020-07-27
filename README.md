@@ -127,7 +127,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 7/23 (myRobin Questions) getSplitTotal.js
 - [x] 7/24 (myRobin Questions) findUniqueValue.js
 - [x] 7/25 (myRobin Questions) getCentury.js
-- [ ] 7/26 (myRobin Questions) 
+- [x] 7/26 (myRobin Questions) countHappiness.js
 
 ### Week14 (7/27 ~ 8/2)
 - [ ] 7/27 (myRobin Questions) 
