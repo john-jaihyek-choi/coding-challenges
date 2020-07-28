@@ -130,7 +130,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 7/26 (myRobin Questions) countHappiness.js
 
 ### Week14 (7/27 ~ 8/2)
-- [ ] 7/27 (myRobin Questions) 
+- [x] 7/27 (myRobin Questions) checkOnline.js
 - [ ] 7/28 (myRobin Questions)
 - [ ] 7/29 (myRobin Questions) 
 - [ ] 7/30 (myRobin Questions) 
