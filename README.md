@@ -131,7 +131,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 
 ### Week14 (7/27 ~ 8/2)
 - [x] 7/27 (myRobin Questions) checkOnline.js
-- [ ] 7/28 (myRobin Questions)
+- [x] 7/28 (myRobin Questions) bstLookUp.js
 - [ ] 7/29 (myRobin Questions) 
 - [ ] 7/30 (myRobin Questions) 
 - [ ] 7/31 (myRobin Questions) 
