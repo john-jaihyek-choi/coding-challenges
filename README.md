@@ -133,7 +133,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 7/27 (myRobin Questions) checkOnline.js
 - [x] 7/28 (myRobin Questions) bstLookUp.js
 - [x] 7/29 (myRobin Questions) alternateCase.js
-- [ ] 7/30 (myRobin Questions) 
+- [x] 7/30 (myRobin Questions) closestPalindrome.js
 - [ ] 7/31 (myRobin Questions) 
 - [ ] 8/1 (myRobin Questions) 
 - [ ] 8/2 (myRobin Questions) 
