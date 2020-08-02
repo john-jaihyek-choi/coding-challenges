@@ -135,5 +135,5 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 7/29 (myRobin Questions) alternateCase.js
 - [x] 7/30 (myRobin Questions) closestPalindrome.js
 - [x] 7/31 (Leetcode Questions) CountingBits.js
-- [ ] 8/1 (myRobin Questions) 
+- [x] 8/1 (myRobin Questions) removeLastVowel.js
 - [ ] 8/2 (myRobin Questions) 
