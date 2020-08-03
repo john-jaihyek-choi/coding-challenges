@@ -136,4 +136,22 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 7/30 (myRobin Questions) closestPalindrome.js
 - [x] 7/31 (Leetcode Questions) CountingBits.js
 - [x] 8/1 (myRobin Questions) removeLastVowel.js
-- [ ] 8/2 (myRobin Questions) 
+- [x] 8/2 (Leetcode Questions) reverseLinkedList.js
+
+### Week15 (8/3 ~ 8/9)
+- [ ] 8/3 (myRobin Questions) 
+- [ ] 8/4 (myRobin Questions) 
+- [ ] 8/5 (myRobin Questions) 
+- [ ] 8/6 (myRobin Questions) 
+- [ ] 8/7 (myRobin Questions) 
+- [ ] 8/8 (myRobin Questions) 
+- [ ] 8/9 (myRobin Questions) 
+
+### Week16 (8/9 ~ 8/15)
+- [ ] 8/9 (myRobin Questions) 
+- [ ] 8/10 (myRobin Questions) 
+- [ ] 8/11 (myRobin Questions) 
+- [ ] 8/12 (myRobin Questions) 
+- [ ] 8/13 (myRobin Questions) 
+- [ ] 8/14 (myRobin Questions) 
+- [ ] 8/15 (myRobin Questions) 
