@@ -11,26 +11,28 @@
     
 class Queue {
     constructor(value) {
-        this.list = [value];
+        this.list = value ? [value] : [];
+        this.size = value ? 1 : 0;
     }
 
     add(value) {
         this.list.push(value);
-        this.length++;
+        this.size++;
         return this.list;
     }
 
     remove() {
         this.list.shift();
-        this.length--;
+        this.size--;
         return this.list;
     }
 
 }
 
-const newQueue = new Queue(1);
+const newQueue = new Queue();
 
-console.log(newQueue);
 console.log(newQueue.add(2));
 console.log(newQueue.add(3));
+console.log(newQueue.add(4));
+console.log(newQueue.remove());
 console.log(newQueue.remove());
