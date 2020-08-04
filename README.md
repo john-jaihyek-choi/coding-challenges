@@ -139,7 +139,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 8/2 (Leetcode Questions) reverseLinkedList.js
 
 ### Week15 (8/3 ~ 8/9)
-- [ ] 8/3 (myRobin Questions) 
+- [x] 8/3 (myRobin Questions) implementQueue.js
 - [ ] 8/4 (myRobin Questions) 
 - [ ] 8/5 (myRobin Questions) 
 - [ ] 8/6 (myRobin Questions) 
