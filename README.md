@@ -143,7 +143,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 8/4 (myRobin Questions) encrypt.js
 - [x] 8/5 (myRobin Questions) checkSteps.js
 - [x] 8/6 (myRobin Questions) commaConverter.js
-- [ ] 8/7 (myRobin Questions) 
+- [x] 8/7 (Interview Questions Review) checkPalindrome.js
 - [ ] 8/8 (myRobin Questions) 
 - [ ] 8/9 (myRobin Questions) 
 
