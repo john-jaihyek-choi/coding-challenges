@@ -145,7 +145,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 8/6 (myRobin Questions) commaConverter.js
 - [x] 8/7 (Interview Questions Review) checkPalindrome.js
 - [x] 8/8 (myRobin & Interview Questions) countDaysLeft.js, moviesForFlights.js
-- [ ] 8/9 (myRobin Questions) 
+- [x] 8/9 (myRobin Questions) printeSequence.js
 
 ### Week16 (8/9 ~ 8/15)
 - [ ] 8/9 (myRobin Questions) 
