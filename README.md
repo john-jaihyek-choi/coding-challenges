@@ -147,11 +147,11 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 8/8 (myRobin & Interview Questions) countDaysLeft.js, moviesForFlights.js
 - [x] 8/9 (myRobin Questions) printeSequence.js
 
-### Week16 (8/9 ~ 8/15)
-- [ ] 8/9 (myRobin Questions) 
-- [ ] 8/10 (myRobin Questions) 
+### Week16 (8/10 ~ 8/16)
+- [x] 8/10 (myRobin Questions) cumulativeEarning.js
 - [ ] 8/11 (myRobin Questions) 
 - [ ] 8/12 (myRobin Questions) 
 - [ ] 8/13 (myRobin Questions) 
 - [ ] 8/14 (myRobin Questions) 
 - [ ] 8/15 (myRobin Questions) 
+- [ ] 8/16 (myRobin Questions) 
