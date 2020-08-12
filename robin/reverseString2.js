@@ -24,15 +24,9 @@ function reverseWordOrder (string) {
 
 // words AND strings reversed
 function reverseWordStrings (string) {
-    const stringArr = string.split(' ');
-    const reversedString = [];
     let reversedSentence = '';
 
-    for(let i = string.length - 1; i >= 0; i--) {
-        reversedString.push(stringArr[i]);
-    }
-
-    const newString = reversedString.join(' ');
+    const newString = reverseWordOrder(string);
 
     for(let i = newString.length - 1; i >= 0; i--) {
         reversedSentence += newString[i];
@@ -41,6 +35,6 @@ function reverseWordStrings (string) {
     return reversedSentence;
 }
 
-console.log(reverseSentence('string is reversed'));
-console.log(reverseWordOrder('string is reversed'))
-console.log(reverseWordStrings('string is reversed'))
+console.log('1', reverseSentence('string is reversed'));
+console.log('2', reverseWordOrder('string is reversed'))
+console.log('3', reverseWordStrings('string is reversed'))
