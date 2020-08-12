@@ -1,6 +1,6 @@
 // Today's problem is short and to the point: Write a function that takes a string and returns the string in reversed order.
 
-// entire string reversing
+// entire setence reversed
 function reverseSentence(string) {
     let reversedString = '';
     for(let i = string.length - 1; i >= 0; i--) {
@@ -10,7 +10,7 @@ function reverseSentence(string) {
 }
 
 
-// words reversed
+// words in setence reversed
 function reverseWordOrder (string) {
     const stringArr = string.split(' ');
     const reversedString = [];
@@ -22,7 +22,7 @@ function reverseWordOrder (string) {
     return reversedString.join(' ');
 }
 
-// words AND strings reversed
+// letters of each words reversed
 function reverseWordStrings (string) {
     let reversedSentence = '';
 
