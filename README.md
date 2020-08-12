@@ -149,7 +149,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 
 ### Week16 (8/10 ~ 8/16)
 - [x] 8/10 (myRobin Questions) cumulativeEarning.js
-- [ ] 8/11 (myRobin Questions) 
+- [x] 8/11 (myRobin Questions) reserseString2.js
 - [ ] 8/12 (myRobin Questions) 
 - [ ] 8/13 (myRobin Questions) 
 - [ ] 8/14 (myRobin Questions) 
