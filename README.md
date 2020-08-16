@@ -153,5 +153,5 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 8/12 (myRobin Questions) boom.js
 - [x] 8/13 (myRobin Questions) xoCount.js
 - [x] 8/14 (myRobin Questions) biggerIndex.js
-- [ ] 8/15 (myRobin Questions) 
+- [x] 8/15 (myRobin Questions) findFirstVowel.js
 - [ ] 8/16 (myRobin Questions) 
