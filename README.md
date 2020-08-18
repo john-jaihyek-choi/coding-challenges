@@ -155,3 +155,21 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 8/14 (myRobin Questions) biggerIndex.js
 - [x] 8/15 (myRobin Questions) findFirstVowel.js
 - [ ] 8/16 (myRobin Questions) 
+
+### Week17 (8/17 ~ 8/23)
+- [x] 8/17 (myRobin Questions) shortestPath.js
+- [ ] 8/18 (myRobin Questions)
+- [ ] 8/19 (myRobin Questions)
+- [ ] 8/20 (myRobin Questions)
+- [ ] 8/21 (myRobin Questions)
+- [ ] 8/22 (myRobin Questions)
+- [ ] 8/23 (myRobin Questions) 
+
+### Week18 (8/24 ~ 8/30)
+- [ ] 8/24 (myRobin Questions) 
+- [ ] 8/25 (myRobin Questions)
+- [ ] 8/26 (myRobin Questions)
+- [ ] 8/27 (myRobin Questions)
+- [ ] 8/28 (myRobin Questions)
+- [ ] 8/29 (myRobin Questions)
+- [ ] 8/30 (myRobin Questions) 
