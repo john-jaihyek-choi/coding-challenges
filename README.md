@@ -158,7 +158,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 
 ### Week17 (8/17 ~ 8/23)
 - [x] 8/17 (myRobin Questions) shortestPath.js
-- [ ] 8/18 (myRobin Questions)
+- [x] 8/18 (myRobin Questions) rockPaperScissors.js
 - [ ] 8/19 (myRobin Questions)
 - [ ] 8/20 (myRobin Questions)
 - [ ] 8/21 (myRobin Questions)
