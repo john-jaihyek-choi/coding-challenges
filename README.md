@@ -160,7 +160,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 8/17 (myRobin Questions) shortestPath.js
 - [x] 8/18 (myRobin Questions) rockPaperScissors.js
 - [x] 8/19 (myRobin Questions) adjacentElementProduct.js
-- [ ] 8/20 (myRobin Questions)
+- [x] 8/20 (myRobin Questions) makeArrayConsecutive.js
 - [ ] 8/21 (myRobin Questions)
 - [ ] 8/22 (myRobin Questions)
 - [ ] 8/23 (myRobin Questions) 
