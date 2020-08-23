@@ -17,4 +17,4 @@ function countDays(month, year) {
     return ((nextMonth - previousMonth) / (1000*60*60*24));
 }
 
-console.log(countDays(2, 2019));
+console.log(countDays(2, 2020));
