@@ -5,13 +5,15 @@ function currentStreak(currentDate, datesArray) {
 
     let consecutiveDays = 0;
     let accumulatedDays = 0;
+
     const today = new Date(currentDate);
     const latestDay = new Date(datesArray[datesArray.length-1]);
 
     for(let i = 1; i < datesArray.length; i++) {
+        if(today - latestDay != 86400000) return 0;
+
         const prevDate = new Date(datesArray[i-1]);
         const currDate = new Date(datesArray[i]);
-
 
         if(currDate - prevDate === 86400000) consecutiveDays++;
         else {
@@ -20,7 +22,7 @@ function currentStreak(currentDate, datesArray) {
         }
     }
 
-    return today - latestDay === 86400000 || today - latestDay === -31449600000 ? consecutiveDays + accumulatedDays + 3 : consecutiveDays + accumulatedDays + 2;
+    return today - latestDay === 86400000 || today - latestDay === -31449600000 ? consecutiveDays + accumulatedDays + 2 : consecutiveDays + accumulatedDays + 1;
 }
 
-console.log(currentStreak('1/3/21', ['12/31/20', '11/15', '11/19', '11/20', '1/1/21', '2/1', '12/30', '1/2/21']))
+console.log(currentStreak('8/22', ['8/20', '8/21']))
