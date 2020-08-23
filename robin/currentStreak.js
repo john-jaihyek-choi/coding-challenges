@@ -1,22 +1,26 @@
 // Have you been practicing your coding every day? Now it's time for you to practice by writing a function that accepts the current date and a list of dates and returns how many days you have been on a streak for (in our case, how many consecutive days you have been practicing coding). If the array is empty, return 0.
 
 function currentStreak(currentDate, datesArray) {
-    datesArray.sort()
+    datesArray.sort((a, b) => new Date(a) - new Date(b));
 
     let consecutiveDays = 0;
+    let accumulatedDays = 0;
     const today = new Date(currentDate);
     const latestDay = new Date(datesArray[datesArray.length-1]);
 
     for(let i = 1; i < datesArray.length; i++) {
         const prevDate = new Date(datesArray[i-1]);
         const currDate = new Date(datesArray[i]);
+
+
         if(currDate - prevDate === 86400000) consecutiveDays++;
-        else consecutiveDays = 0;
+        else {
+            if(currDate - prevDate === -31449600000) accumulatedDays++;
+            consecutiveDays = 0;
+        }
     }
 
-    console.log(datesArray);
-
-    return today - latestDay === 86400000 ? consecutiveDays + 2 : consecutiveDays + 1;
+    return today - latestDay === 86400000 || today - latestDay === -31449600000 ? consecutiveDays + accumulatedDays + 3 : consecutiveDays + accumulatedDays + 2;
 }
 
-console.log(currentStreak('8/22', ['8/16', '8/15', '8/19', '8/20']))
+console.log(currentStreak('1/3/21', ['12/31/20', '11/15', '11/19', '11/20', '1/1/21', '2/1', '12/30', '1/2/21']))
