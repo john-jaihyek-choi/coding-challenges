@@ -2,7 +2,7 @@
 
 function overlappingLetters (string1, string2) {
     const string1Letters = {};
-    const result = ''
+    let result = ''
     
     for(let i = 0; i < string1.length; i++) {
       string1Letters[string1[i]] = true;
@@ -15,4 +15,4 @@ function overlappingLetters (string1, string2) {
     return result;
 }
 
-console.log(overlappingLetters('abc', 'abd'));
+console.log(overlappingLetters('a', 'abd'));
