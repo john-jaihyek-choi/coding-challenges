@@ -161,9 +161,9 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 8/18 (myRobin Questions) rockPaperScissors.js
 - [x] 8/19 (myRobin Questions) adjacentElementProduct.js
 - [x] 8/20 (myRobin Questions) makeArrayConsecutive.js
-- [ ] 8/21 (myRobin Questions)
-- [ ] 8/22 (myRobin Questions)
-- [ ] 8/23 (myRobin Questions) 
+- [x] 8/21 (myRobin Questions) numberOfDays.js
+- [x] 8/22 (myRobin Questions) currentStreak.js
+- [x] 8/23 (myRobin Questions) overlappingLetters.js
 
 ### Week18 (8/24 ~ 8/30)
 - [ ] 8/24 (myRobin Questions) 
