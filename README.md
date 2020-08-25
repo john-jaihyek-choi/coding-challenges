@@ -166,7 +166,8 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 8/23 (myRobin Questions) overlappingLetters.js
 
 ### Week18 (8/24 ~ 8/30)
-- [ ] 8/24 (myRobin Questions) 
+- [x] 8/24 (myRobin Questions) spookyDays.js 
+           (Leetcode Questions) findDisapperaredNumbers.js
 - [ ] 8/25 (myRobin Questions)
 - [ ] 8/26 (myRobin Questions)
 - [ ] 8/27 (myRobin Questions)
