@@ -170,7 +170,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
            (Leetcode Questions) findDisapperaredNumbers.js
 - [ ] 8/25 (myRobin Questions)
 - [x] 8/26 (myRobin Questions) binarySequence.js
-- [ ] 8/27 (myRobin Questions)
+- [x] 8/27 (myRobin Questions) daysFromNow.js
 - [ ] 8/28 (myRobin Questions)
 - [ ] 8/29 (myRobin Questions)
 - [ ] 8/30 (myRobin Questions) 
