@@ -173,4 +173,4 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 8/27 (myRobin Questions) daysFromNow.js
 - [x] 8/28 (myRobin Questions) isDate.js
 - [x] 8/29 (myRobin Questions) addUp.js
-- [ ] 8/30 (myRobin Questions) 
+- [x] 8/30 (myRobin Questions) shortestWords.js
