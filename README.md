@@ -174,3 +174,21 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 8/28 (myRobin Questions) isDate.js
 - [x] 8/29 (myRobin Questions) addUp.js
 - [x] 8/30 (myRobin Questions) shortestWords.js
+
+### Week19 (8/31 ~ 9/6)
+- [x] 8/31 (myRobin Questions) datePalindrome.js
+- [ ] 9/1 (myRobin Questions)
+- [ ] 9/2 (myRobin Questions) 
+- [ ] 9/3 (myRobin Questions) 
+- [ ] 9/4 (myRobin Questions) 
+- [ ] 9/5 (myRobin Questions) 
+- [ ] 9/6 (myRobin Questions) 
+
+### Week20 (9/7 ~ 9/14)
+- [ ] 9/7 (myRobin Questions) 
+- [ ] 9/8 (myRobin Questions)
+- [ ] 9/9 (myRobin Questions) 
+- [ ] 9/10 (myRobin Questions) 
+- [ ] 9/11 (myRobin Questions) 
+- [ ] 9/12 (myRobin Questions) 
+- [ ] 9/13 (myRobin Questions) 
