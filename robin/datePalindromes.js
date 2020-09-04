@@ -7,7 +7,7 @@ function datePalindrome(date) {
     const day = fullDate.getDate() < 10 ? `0${fullDate.getDate()}` : fullDate.getDate();
 
     const newDateFormat = `${month}${day}${year}`;
-    console.log(newDateFormat);
+
     return isPalindrome(newDateFormat);
 }
 
