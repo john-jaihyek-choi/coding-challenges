@@ -181,7 +181,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 9/2 (myRobin Questions) isEven
 - [x] 9/3 (myRobin Questions) findIndex.js
 - [ ] 9/4 (myRobin Questions) 
-- [ ] 9/5 (myRobin Questions) 
+- [x] 9/5 (myRobin Questions) diameterOfBinaryTree.js
 - [ ] 9/6 (myRobin Questions) 
 
 ### Week20 (9/7 ~ 9/14)
