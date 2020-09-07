@@ -5,7 +5,6 @@
 function collectWords(string, stringLength) {
     let completedWord = ''
     let tempWord = ''
-    let count = 0;
     const resultArr = [];
 
     for(let i = 0; i < string.length; i++) {
@@ -17,13 +16,16 @@ function collectWords(string, stringLength) {
         }
 
         if(((i + 1) % stringLength == 0) || i == string.length - 1) {
-            if(completedWord.length <= stringLength && completedWord) resultArr.push(completedWord.trim())
-            completedWord = '';
+            if(completedWord.length <= stringLength && completedWord) {
+                resultArr.push(completedWord.trim())
+                completedWord = '';
+            } else {
+                return [];
+            }
         }
     }
 
     return resultArr;
 }
 
-
-console.log(collectWords("the mouse can creep", 10))
+console.log(collectWords("the mouse can creep", 5))
