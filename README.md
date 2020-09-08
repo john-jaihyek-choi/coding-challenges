@@ -185,7 +185,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 9/6 (myRobin Questions) bucketOfWords.js
 
 ### Week20 (9/7 ~ 9/14)
-- [ ] 9/7 (myRobin Questions) 
+- [x] 9/7 (myRobin Questions) phoneNumberFormatter.js
 - [ ] 9/8 (myRobin Questions)
 - [ ] 9/9 (myRobin Questions) 
 - [ ] 9/10 (myRobin Questions) 
