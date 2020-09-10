@@ -187,7 +187,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 ### Week20 (9/7 ~ 9/14)
 - [x] 9/7 (myRobin Questions) phoneNumberFormatter.js
 - [x] 9/8 (myRobin Questions) volumeOfBoxes.js
-- [ ] 9/9 (myRobin Questions) 
+- [x] 9/9 (myRobin Questions) checkForWeekend.js
 - [ ] 9/10 (myRobin Questions) 
 - [ ] 9/11 (myRobin Questions) 
 - [ ] 9/12 (myRobin Questions) 
