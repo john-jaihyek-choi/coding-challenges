@@ -4,12 +4,13 @@
     // instantiate a variable called currentIndex with an initial value of 0;
 
     // declare a shell function called isBuble with a single input parameter, index
-        // set a condition to check if employee employees at index'th index is undefined
+        // set a condition to check if  employees at index'th index is undefined
+          // if true, return false;
         // set a condition to check if employee employees at index'th index is equal to Michale Buble
             // if true, return true;
-        // otherwise, call isBuble, passing in employees at index + 1 index;
+        // otherwise, call isBuble, passing in employees at index + 1
     
-    // isBuble with a single argument, 0;
+    // isBuble with a single argument, currentIndex;
 
 function findBuble (employees) {
     let currentIndex = 0;
@@ -19,7 +20,7 @@ function findBuble (employees) {
         if(employees[index] === 'Michale Buble') return true;
         else return isBuble(index + 1);
     }
-    
+
     return isBuble(currentIndex);
 }
 
