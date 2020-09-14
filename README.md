@@ -191,4 +191,4 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 9/10 (myRobin Questions) pseudocode.js
 - [ ] 9/11 (myRobin Questions) 
 - [x] 9/12 (myRobin Questions) shortestPathTravel.js
-- [ ] 9/13 (myRobin Questions) 
+- [x] 9/13 (myRobin Questions) runningSum.js
