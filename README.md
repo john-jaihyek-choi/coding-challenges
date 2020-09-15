@@ -184,7 +184,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 9/5 (myRobin Questions) diameterOfBinaryTree.js
 - [x] 9/6 (myRobin Questions) bucketOfWords.js
 
-### Week20 (9/7 ~ 9/14)
+### Week20 (9/7 ~ 9/13)
 - [x] 9/7 (myRobin Questions) phoneNumberFormatter.js
 - [x] 9/8 (myRobin Questions) volumeOfBoxes.js
 - [x] 9/9 (myRobin Questions) checkForWeekend.js
@@ -192,3 +192,12 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [ ] 9/11 (myRobin Questions) 
 - [x] 9/12 (myRobin Questions) shortestPathTravel.js
 - [x] 9/13 (myRobin Questions) runningSum.js
+
+### Week21 (9/14 ~ 9/20)
+- [x] 9/14 (myRobin Questions) specialBinaryPosition.js (attempted)
+- [ ] 9/15 (myRobin Questions) 
+- [ ] 9/16 (myRobin Questions) 
+- [ ] 9/17 (myRobin Questions) 
+- [ ] 9/18 (myRobin Questions) 
+- [ ] 9/19 (myRobin Questions) 
+- [ ] 9/20 (myRobin Questions) 
