@@ -195,7 +195,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 
 ### Week21 (9/14 ~ 9/20)
 - [x] 9/14 (myRobin Questions) specialBinaryPosition.js (attempted)
-- [ ] 9/15 (myRobin Questions) 
+- [x] 9/15 (myRobin Questions) shuffleString.js
 - [ ] 9/16 (myRobin Questions) 
 - [ ] 9/17 (myRobin Questions) 
 - [ ] 9/18 (myRobin Questions) 
