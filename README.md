@@ -199,5 +199,5 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 9/16 (myRobin Questions) numberOfGoodPairs.js
 - [x] 9/17 (myRobin Questions) goodString.js
 - [x] 9/18 (myRobin Questions) createOrderedTargetArr.js
-- [ ] 9/19 (myRobin Questions) 
+- [x] 9/19 (myRobin Questions) reverseString.js reverseInt.js
 - [ ] 9/20 (myRobin Questions) 
