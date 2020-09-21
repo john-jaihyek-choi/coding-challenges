@@ -194,10 +194,28 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 9/13 (myRobin Questions) runningSum.js
 
 ### Week21 (9/14 ~ 9/20)
-- [x] 9/14 (myRobin Questions) specialBinaryPosition.js (attempted)
-- [x] 9/15 (myRobin Questions) shuffleString.js
-- [x] 9/16 (myRobin Questions) numberOfGoodPairs.js
-- [x] 9/17 (myRobin Questions) goodString.js
-- [x] 9/18 (myRobin Questions) createOrderedTargetArr.js
-- [x] 9/19 (myRobin Questions) reverseString.js reverseInt.js
-- [ ] 9/20 (myRobin Questions) 
+- [x] 9/14 (LeetCode Questions) specialBinaryPosition.js (attempted)
+- [x] 9/15 (LeetCode Questions) shuffleString.js
+- [x] 9/16 (LeetCode Questions) numberOfGoodPairs.js
+- [x] 9/17 (LeetCode Questions) goodString.js
+- [x] 9/18 (LeetCode Questions) createOrderedTargetArr.js
+- [x] 9/19 (LeetCode Questions) reverseString.js reverseInt.js
+- [x] 9/20 (LeetCode Questions) deleteNodeLinkedLists.js
+
+### Week22 (9/21 ~ 9/27)
+- [ ] 9/21 (LeetCode Questions) 
+- [ ] 9/22 (LeetCode Questions) 
+- [ ] 9/23 (LeetCode Questions) 
+- [ ] 9/24 (LeetCode Questions) 
+- [ ] 9/25 (LeetCode Questions) 
+- [ ] 9/26 (LeetCode Questions) 
+- [ ] 9/27 (LeetCode Questions) 
+
+### Week23 (9/28 ~ 10/4)
+- [ ] 9/28 (LeetCode Questions) 
+- [ ] 9/29 (LeetCode Questions) 
+- [ ] 9/30 (LeetCode Questions) 
+- [ ] 10/1 (LeetCode Questions) 
+- [ ] 10/2 (LeetCode Questions) 
+- [ ] 10/3 (LeetCode Questions) 
+- [ ] 10/4 (LeetCode Questions) 
