@@ -203,7 +203,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 9/20 (LeetCode Questions) deleteNodeLinkedLists.js
 
 ### Week22 (9/21 ~ 9/27)
-- [ ] 9/21 (LeetCode Questions) 
+- [x] 9/21 (LeetCode Questions) fizzBuzz.js
 - [ ] 9/22 (LeetCode Questions) 
 - [ ] 9/23 (LeetCode Questions) 
 - [ ] 9/24 (LeetCode Questions) 
