@@ -205,7 +205,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 ### Week22 (9/21 ~ 9/27)
 - [x] 9/21 (LeetCode Questions) fizzBuzz.js
 - [x] 9/22 (LeetCode Questions) bestTimeToSellStock.js
-- [ ] 9/23 (LeetCode Questions) 
+- [x] 9/23 (LeetCode Questions) excelColumnTranslator.js
 - [ ] 9/24 (LeetCode Questions) 
 - [ ] 9/25 (LeetCode Questions) 
 - [ ] 9/26 (LeetCode Questions) 
