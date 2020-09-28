@@ -209,7 +209,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 9/24 (LeetCode Questions) containsDuplicate.js
 - [x] 9/25 (LeetCode Questions) missingNumber.js
 - [ ] 9/26 (LeetCode Questions) 
-- [ ] 9/27 (LeetCode Questions) 
+- [x] 9/27 (LeetCode Questions) validPalindrome.js
 
 ### Week23 (9/28 ~ 10/4)
 - [ ] 9/28 (LeetCode Questions) 
