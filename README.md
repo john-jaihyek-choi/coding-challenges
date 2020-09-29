@@ -212,7 +212,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [x] 9/27 (LeetCode Questions) validPalindrome.js
 
 ### Week23 (9/28 ~ 10/4)
-- [ ] 9/28 (LeetCode Questions) 
+- [x] 9/28 (LeetCode Questions) findUnsortedArr.js
 - [ ] 9/29 (LeetCode Questions) 
 - [ ] 9/30 (LeetCode Questions) 
 - [ ] 10/1 (LeetCode Questions) 
