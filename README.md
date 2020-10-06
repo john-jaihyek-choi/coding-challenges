@@ -219,3 +219,12 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 - [ ] 10/2 (LeetCode Questions) 
 - [ ] 10/3 (LeetCode Questions) 
 - [ ] 10/4 (LeetCode Questions) 
+
+### Week24 (10/5 ~ 10/11)
+- [x] 10/5 (LeetCode Questions) searchInsert.js
+- [ ] 10/6 (LeetCode Questions) 
+- [ ] 10/7 (LeetCode Questions) 
+- [ ] 10/8 (LeetCode Questions) 
+- [ ] 10/9 (LeetCode Questions) 
+- [ ] 10/10 (LeetCode Questions) 
+- [ ] 10/11 (LeetCode Questions) 
