@@ -222,7 +222,7 @@ AT LEAST 1 problem each day (as of 4/27/2020)
 
 ### Week24 (10/5 ~ 10/11)
 - [x] 10/5 (LeetCode Questions) searchInsert.js
-- [ ] 10/6 (LeetCode Questions) 
+- [x] 10/6 (LeetCode Questions) implementLowerCase.js
 - [ ] 10/7 (LeetCode Questions) 
 - [ ] 10/8 (LeetCode Questions) 
 - [ ] 10/9 (LeetCode Questions) 
