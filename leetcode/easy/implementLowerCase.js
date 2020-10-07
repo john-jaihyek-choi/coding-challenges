@@ -14,5 +14,3 @@ var toLowerCase = function(str) {
 
     return newStr;
 };
-
-toLowerCase('H&ello');
